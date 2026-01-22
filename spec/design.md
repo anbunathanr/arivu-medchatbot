@@ -60,11 +60,11 @@ Arivu is a dual-role medical assistant platform that serves both doctors and pat
 │  ┌────────┴──────────────────────────────────────────────────┐  │
 │  │         External Integrations                             │  │
 │  ├──────────────────────────────────────────────────────────┤  │
-│  │ • LLM APIs (OpenAI, Anthropic, etc.)                     │  │
-│  │ • Speech-to-Text API (Deepgram, AssemblyAI)             │  │
+│  │ • LLM APIs (medGemma)                                    │  │
+│  │ • Speech-to-Text API                                     │  │
 │  │ • Text-to-Speech API (Google Cloud, Azure)              │  │
 │  │ • Web Search API                                         │  │
-│  │ • Appointment Booking System                             │  │
+│  │                                                          │  │
 │  └──────────────────────────────────────────────────────────┘  │
 │                                                                   │
 └─────────────────────────────────────────────────────────────────┘
@@ -992,4 +992,5 @@ Each property-based test SHALL:
 - All properties have corresponding property-based tests
 - All error handling paths have unit tests
 - All data models have validation tests
+
 
